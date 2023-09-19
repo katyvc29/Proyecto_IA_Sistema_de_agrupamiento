@@ -27,7 +27,7 @@ escaladorB = MinMaxScaler().fit(datosB.values)
 #datos_normA = pd.DataFrame(escaladorA.transform(datosA.values), columns = ['Abonados', 'DPI', 'FPI'])
 datos_normB = pd.DataFrame(escaladorB.transform(datosB.values), columns = ['Abonados', 'DPI', 'FPI'])
 
-'''
+
 # Graficas para Anexo A
 datosA.drop([],1).hist()
 datos_normA.drop([],1).hist()
@@ -84,7 +84,7 @@ ax.set_xlabel('Abonados')
 ax.set_ylabel('DPI')
 ax.set_zlabel('FPI')
 plt.show()
-'''
+
 
 
 ###########################################################################################################
@@ -145,5 +145,4 @@ ax.set_xlabel('Abonados')
 ax.set_ylabel('DPI')
 ax.set_zlabel('FPI')
 plt.show()
-
 
